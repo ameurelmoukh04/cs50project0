@@ -190,7 +190,6 @@ position: absolute;
   
   }
   .submit{
-    display: flex;
     width: fit-content;
   padding: 10px;
   font-size: 14px;
@@ -201,14 +200,13 @@ position: absolute;
   border-radius: 6px;
   background-color: #fcfcfd;
   position: absolute;
-    left: 40%; 
-    top: 42%;  
+    left: 35%; 
+    top: 42%; 
     
   
   }
   
   .luck{
-    display: flex;
     width: fit-content;
   padding: 10px;
   font-size: 14px;
@@ -218,7 +216,7 @@ position: absolute;
   border-radius: 6px;
   background-color: #fcfcfd;
   position: absolute;
-   left: 60%;
+   left: 65%;
     top: 42%; 
   }
   
@@ -270,13 +268,16 @@ position: absolute;
     color: rgb(190, 190, 190);
   }
   
-}
+
 .bsubmit{
-  display: inline-block;
+  display: flex;
   position: absolute;
   top: 25%;
   left: auto;
-height: 200px;
+height: 100px;
 width: 100%;
 background: none;
+justify-content: space-between;
+}
+
 }
