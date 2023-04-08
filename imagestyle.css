@@ -38,7 +38,14 @@ position: absolute;
     left: 50%;
     top: 15%;
     transform: translate(-50%, -50%);
-    
+}
+.img{
+  display: inline-block;
+position: absolute;
+top: 16%;
+left: 60%;
+color: #4285F4;
+font-size: 10px;
 }
 
 .input{
@@ -143,6 +150,14 @@ position: absolute;
     position: absolute;
     left: 50%;
     top: 17%; 
+}
+.img{
+  display: inline-block;
+position: absolute;
+top: 21%;
+left: 57%;
+color: #4285F4;
+font-size: 15px;
 }
 
   
